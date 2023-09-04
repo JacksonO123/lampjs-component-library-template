@@ -24,6 +24,6 @@
     "typescript": "latest"
   },
   "peerDependencies": {
-    "@jacksonotto/lampjs": "^3.7.8"
+    "@jacksonotto/lampjs": "../lampjs/lib"
   }
 }

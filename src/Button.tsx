@@ -1,4 +1,4 @@
-import { createElement, ComponentChild } from "@jacksonotto/lampjs";
+import { ComponentChild } from "@jacksonotto/lampjs";
 import "./button.css";
 
 type ButtonProps = {
