@@ -5,7 +5,7 @@
   "types": "dist/index.d.ts",
   "description": "Template for lampjs component library",
   "author": "{{your name}}",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "welcome": "chmod +x ./build.sh",
     "build": "./build.sh",
@@ -24,6 +24,6 @@
     "typescript": "latest"
   },
   "peerDependencies": {
-    "@jacksonotto/lampjs": "../lampjs/lib"
+    "@jacksonotto/lampjs": "^3.7.8"
   }
 }
