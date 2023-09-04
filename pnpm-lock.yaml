@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@jacksonotto/lampjs':
-    specifier: ../lampjs/lib
-    version: link:../lampjs/lib
+    specifier: ^3.7.8
+    version: 3.7.8
 
 devDependencies:
   '@types/node':
@@ -444,6 +444,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@jacksonotto/lampjs@3.7.8:
+    resolution: {integrity: sha512-xQxDh45YLKjNw1f0bJdl395iBw38yyza3kg2uy8dTOAE10D+Wb8ybCE2Ks7u7zY7GuM74yqhQ2PwPx6GLAf0Qw==}
+    dev: false
 
   /@types/node@20.5.9:
     resolution: {integrity: sha512-PcGNd//40kHAS3sTlzKB9C9XL4K0sTup8nbG5lC14kzEteTNuAFh9u5nA0o5TWnSG2r/JNPRXFVcHJIIeRlmqQ==}
