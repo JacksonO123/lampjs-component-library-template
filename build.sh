@@ -1,1 +1,1 @@
-rm -rf dist/* && npx esbuild src/* --outdir=dist && npx tsc --emitDeclarationOnly
+rm -rf dist/* && npx esno build.ts && npx tsc --emitDeclarationOnly
