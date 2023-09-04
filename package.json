@@ -1,0 +1,29 @@
+{
+  "name": "lampjs-comp-lib",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Template for lampjs component library",
+  "author": "{{your name}}",
+  "version": "0.0.1",
+  "scripts": {
+    "welcome": "chmod +x ./build.sh",
+    "build": "./build.sh",
+    "dev": "npx nodemon -e ts --watch src --exec ./build.sh"
+  },
+  "exports": {
+    ".": {
+      "import": "dist/index.js",
+      "types": "dist/index.d.ts"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "esbuild": "^0.19.2",
+    "nodemon": "latest",
+    "typescript": "latest"
+  },
+  "peerDependencies": {
+    "@jacksonotto/lampjs": "../lampjs/lib"
+  }
+}

@@ -1,0 +1,21 @@
+:root {
+  --blue-comp:
+    0,
+    123,
+    255;
+}
+button {
+  background: rgba(var(--blue-comp), 1);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.15s all, 0.05 transform;
+  cursor: pointer;
+}
+button:hover {
+  background: rgba(var(--blue-comp), 0.8);
+}
+button:active {
+  transform: translateY(2px);
+}
