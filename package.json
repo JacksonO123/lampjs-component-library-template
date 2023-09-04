@@ -9,7 +9,7 @@
   "scripts": {
     "welcome": "chmod +x ./build.sh",
     "build": "./build.sh",
-    "dev": "npx nodemon -e ts --watch src --exec ./build.sh"
+    "dev": "npx nodemon --ext '*' --watch src --exec ./build.sh"
   },
   "exports": {
     ".": {
