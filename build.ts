@@ -1,5 +1,6 @@
 import { build } from 'esbuild';
 import { readFileSync, readdirSync, writeFileSync } from 'fs';
+import { sassPlugin as sass } from 'esbuild-sass-plugin';
 
 const entry = 'src';
 const out = 'dist';
@@ -7,6 +8,7 @@ const importInject = 'import { createElement, Fragment } from "@jacksonotto/lamp
 
 (async () => {
   await build({
+    plugins: [sass()],
     entryPoints: [`${entry}/*`],
     outdir: out
   });

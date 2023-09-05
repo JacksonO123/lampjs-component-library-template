@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/node": "latest",
     "esbuild": "^0.19.2",
+    "esbuild-sass-plugin": "^2.14.0",
     "esno": "^0.17.0",
     "nodemon": "latest",
     "typescript": "latest"

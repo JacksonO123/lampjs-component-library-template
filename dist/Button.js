@@ -1,6 +1,6 @@
 "use strict";
 import { createElement, Fragment } from "@jacksonotto/lampjs";
-import "./button.css";
+import "./button.scss";
 export const Button = ({ children }) => {
   return /* @__PURE__ */ createElement("button", null, children);
 };

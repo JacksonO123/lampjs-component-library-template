@@ -1,5 +1,5 @@
 import { ComponentChild } from '@jacksonotto/lampjs';
-import './button.css';
+import './button.scss';
 
 type ButtonProps = {
   children: ComponentChild;
