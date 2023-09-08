@@ -9,6 +9,7 @@
   "scripts": {
     "welcome": "chmod +x ./build.sh",
     "build": "./build.sh",
+    "clean-build": "rm -rf dist/* && ./build.sh",
     "dev": "npx nodemon --ext '*' --watch src --exec ./build.sh"
   },
   "exports": {
